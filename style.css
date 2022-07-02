@@ -62,6 +62,8 @@
 .footer-social-list {
 }
 .header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 .homelink {
 }
@@ -124,6 +126,7 @@
 .social-link {
 }
 .veil {
+  display: none;
 }
 .why__info-excerpt {
 }
