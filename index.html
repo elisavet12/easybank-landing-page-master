@@ -47,19 +47,47 @@
         />
       </button>
       <button class="close">
-        <img src="./images/icon-close.svg" alt="close" role="close menu" />
+        <img
+          src="./images/icon-close.svg"
+          alt="close"
+          role="close menu"
+          class="close-img"
+        />
       </button>
       <div class="veil"></div>
       <nav class="nav nav--main">
-        <a href="#" class="nav__link">Home</a>
-        <a href="" class="nav__link">About</a>
-        <a href="" class="nav__link">Contact</a>
-        <a href="" class="nav__link">Blog</a>
-        <a href="" class="nav__link"> Careers</a>
+        <ul class="nav--main__list">
+          <li class="nav--item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav--item">
+            <a href="" class="nav__link">About</a>
+          </li>
+          <li class="nav--item">
+            <a href="" class="nav__link">Contact</a>
+          </li>
+          <li class="nav--item">
+            <a href="" class="nav__link">Blog</a>
+          </li>
+          <li class="nav--item">
+            <a href="" class="nav__link"> Careers</a>
+          </li>
+        </ul>
       </nav>
       <button class="nav__btn request-btn">
-        <a href="#" class="nav__link">Request Invite</a>
+        <a href="#" class="nav__link-btn">Request Invite</a>
       </button>
+      <!-- <button class="burger">
+        <img
+          src="./images/icon-hamburger.svg"
+          alt="burger"
+          role="open menu"
+          class="burger"
+        />
+      </button>
+      <button class="close">
+        <img src="./images/icon-close.svg" alt="close" role="close menu" />
+      </button> -->
     </header>
     <main class="main">
       <section class="section--next">
@@ -71,10 +99,15 @@
             more.
           </p>
           <button class="next__info--btn request-btn">
-            <a href="#" class="nav__link">Request Invite</a>
+            <a href="#" class="nav__link-btn">Request Invite</a>
           </button>
         </div>
         <div class="section--next__img">
+          <!-- <img
+            src="./images/bg-intro-desktop.svg"
+            alt=""
+            class="section--next__img-bg"
+          /> -->
           <img
             src="./images/image-mockups.png"
             alt="mockups"
@@ -268,7 +301,7 @@
         </div>
         <div class="footer--section__btn">
           <button class="footer-btn request-btn">
-            <a href="#" class="nav__link">Request Invite</a>
+            <a href="#" class="nav__link-btn">Request Invite</a>
           </button>
           <h7 class="footer-copyright">© Easybank. All Rights Reserved</h7>
         </div>
